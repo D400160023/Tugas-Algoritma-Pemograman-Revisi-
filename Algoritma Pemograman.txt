@@ -1,0 +1,15 @@
+start
+input (a,b,c)
+if a=0 then
+	write ('bukan persamaan kuadrat')
+else
+D(b*b) - (4*a*c)
+if D<0 then write ('akar imajiner')
+else if D=0 then
+	x=-b/2*a
+	output (x)
+     else
+	x1=(-b+sqrt(d)/2*a
+	x2=(-b-sqrt(d)/2*a
+	output (x1,x2)
+end
